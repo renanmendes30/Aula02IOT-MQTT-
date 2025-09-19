@@ -1,0 +1,62 @@
+Guia de Instalação do Node-RED
+Este tutorial irá guiá-lo através do processo de instalação do Node-RED em seu sistema operacional. O Node-RED é uma ferramenta de programação baseada em fluxo para conectar dispositivos de hardware, APIs e serviços online de maneiras novas e interessantes.
+
+Pré-requisitos
+Antes de instalar o Node-RED, você precisará ter o Node.js e o npm (Node Package Manager) instalados em seu sistema. O npm está incluído no instalador do Node.js.
+
+Passo 1: Instalar o Node.js
+Recomenda-se o uso da versão LTS (Long-Term Support) do Node.js para maior estabilidade.
+
+Baixe o instalador do Node.js:
+
+Acesse o site oficial do Node.js: https://nodejs.org/
+
+Baixe o instalador LTS recomendado para o seu sistema operacional (Windows, macOS ou Linux).
+
+Execute o instalador:
+
+Abra o arquivo baixado e siga as instruções do assistente de instalação. Aceite os termos de licença e mantenha as configurações padrão.
+
+Verifique a instalação:
+
+Abra um novo terminal ou prompt de comando e execute os seguintes comandos para verificar se o Node.js e o npm foram instalados corretamente:
+
+Bash
+
+node -v
+npm -v
+Você deverá ver as versões do Node.js e do npm exibidas no console.
+
+Passo 2: Instalar o Node-RED
+Com o Node.js e o npm instalados, você pode instalar o Node-RED usando o npm. A instalação como um módulo global permite que você execute o comando node-red de qualquer lugar no seu sistema.
+
+Abra seu terminal ou prompt de comando e execute o seguinte comando:
+
+Para Windows, macOS e Linux:
+
+Bash
+
+npm install -g --unsafe-perm node-red
+Para usuários de macOS e Linux, pode ser necessário usar sudo para conceder as permissões necessárias para a instalação global:
+
+Bash
+
+sudo npm install -g --unsafe-perm node-red
+Aguarde a conclusão do processo de instalação.
+
+Passo 3: Executar o Node-RED
+Após a conclusão da instalação, você pode iniciar o Node-RED.
+
+Em seu terminal ou prompt de comando, execute o seguinte comando:
+
+Bash
+
+node-red
+Você verá uma série de mensagens de log no terminal, indicando que o Node-RED foi iniciado. A última linha informará o endereço em que o editor do Node-RED está sendo executado, geralmente:
+
+Server now running at http://127.0.0.1:1880/
+Acesse o Editor do Node-RED:
+
+Abra seu navegador de internet e navegue até o endereço fornecido no log (geralmente http://localhost:1880).
+
+Você será recebido pela interface do editor do Node-RED, onde poderá começar a criar seus fluxos.
